@@ -10,7 +10,6 @@ app.config['SWAGGER'] = {
 Swagger(app)
 CONFIG = {'AMQP_URI': "amqp://shnops:shnpass@rabbitmq.opslab.local"}
 
-
 @app.route('/compute', methods=['POST'])
 def compute():
     """
